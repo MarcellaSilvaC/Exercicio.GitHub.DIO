@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <style>
+      body {
+        background-color: rgb(190, 233, 190);
+       }
+       header {
+        background-color: rgb(26, 110, 64);
+        color: white;
+        font: arial; 
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+       }
+       #msg {
+        background-color: rgb(236, 243, 236);
+        width: 400px;
+        text-align: justify;
+        padding: 10px;
+        margin: 30px;
+       }
+
+    </style>
+</head>
+
+<body>
+    <header>
+    <h1>Hello World!</h1>
+    </header>
+    
+    <h2>Estou iniciando meus estudos em Javascrip!! Eeeeeeeeeeeeeee!!!</h2>
+
+    <h3>Mas o que é <strong> Javascript</strong>?</h3>
+
+    <p>Javascript, ou simplesmente JS, é uma linguagem de programação de uso geral, aplicada principalmente para desenvolvimento web e desenvolvimento de software.</p>
+
+    <p>Quer saber mais sobre Javascript?</p>
+    <div id = "msg" onclick="clicar()"><strong>Clique aqui!</strong></div>
+
+    <script>
+        function clicar () {
+            var msg = window.document.getElementById("msg")
+            msg.innerText='Especificando mais, o Javascript atua na programação front-end, — a parte “visual” de uma aplicação (geralmente um site ou um app). Neste caso, o Javascript é usado junto com outras duas linguagens iniciais, o HTML e CSS.'
+            
+            
+        }
+        
+            
+            
+        
+        
+    </script>
+    
+
+
+
+        
+
+
+
+    
+</body>
+</html>
